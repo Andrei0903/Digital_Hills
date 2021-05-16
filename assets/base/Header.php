@@ -2,10 +2,12 @@
 <html lang="ru">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="yandex-verification" content="4dc9764416dd060b" />
+        <meta name="google-site-verification" content="PAD_q1xp9ToJYKxlFUwbjUehtXm3P_0KGKO9ciWzACU" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="shortcut icon" href="/images/logo.jpg" type="image/png">
         <title>Студия дизайна   </title>
         <!-- Bootstrap core CSS -->
@@ -26,6 +28,7 @@
         <link rel="stylesheet" href="assets/css/animate.css">
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
         <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
+          <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <script>
         window.odometerOptions = {
           selector: '.odometer',
@@ -35,3 +38,5 @@
         };
         </script>
     </head>
+
+    <body>

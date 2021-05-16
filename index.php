@@ -1,18 +1,7 @@
 <?php include $_SERVER["DOCUMENT_ROOT"] . "/assets/base/Header.php"?>
-    <body class="">
+ 
       <!-- Pushy Menu -->
-      <nav class="pushy pushy-left">
-        <ul class="list-unstyled">
-            <li><a href="#home">Главная</a></li>
-            <li><a href="#feat">Этапы</a></li>
-            <li><a href="#about">О нас</a></li>
-            <li><a href="#news">Блог</a></li>
-            <li><a href="#history"  >Наша история</a></li>
-            <li><a href="#photos">Фото примеры</a></li>
-            <li><a href="#contact">Подписаться</a></li>
-            <li><a href="" target="_blank">Download</a></li>
-        </ul>
-      </nav>
+      <?php include $_SERVER["DOCUMENT_ROOT"] . "/assets/base/sideBar.php"?>
 
       <!-- Site Overlay -->
       <div class="site-overlay"></div>
@@ -48,7 +37,7 @@
       <div class="my_modal-body">
           <p>Узнайте сколько будет стоить ваш заказ</h1>    
         <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfgn8ZZ3xZdl8IfbmoZ3MWLqlYWzEX18tqLAl9peL1rl4mWrA/viewform" class="btn btn-danger" >Расчитать стоимость ланшафт</a></p>
-        <p><a href="#" class="btn btn-danger sdd" >Расчитать стоимость интерьера</a></p>
+        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSc_vc1bR953TtHbc9aljUULhGJ5jIh-xhmG0Ygofhh2oP1Rfw/viewform" class="btn btn-danger sdd" >Расчитать стоимость интерьера</a></p>
 
         <script>
       
@@ -65,7 +54,7 @@
                         <h1><small>Доступный дизайн</small></br>
 						<strong>Студия дизайна</strong></h1>
                         <!-- <p>Красивый и уютный сад, уютный и красивый офис или дом - это к нам !</p> -->
-                        <p><a class="btn btn-primary btn-lg" role="button">Выезд специалиста</a>
+                        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdrr7Mfvmqj5J1lwnva0cqM3EFYh2KESWxaho1l27Rty5A7EA/viewform" class="btn btn-primary btn-lg" role="button">Выезд специалиста</a>
                              <a  href="#modal_open" class="btn btn-lg btn-danger" role="button">Расчитать стоимость</a></p>
                     </div>
                 </div>
@@ -78,21 +67,21 @@
                         <span class="typcn typcn-pencil x3"></span>
                         <h4>Первый этап</h4>
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad vero facilis recusandae maiores sed fuga. Odit incidunt quod nam nulla porro consequatur beatae pariatur! Corrupti, obcaecati? Neque iste alias vel.
+                        Получение заявки. Обработка данных и консультация со специалистом.
                         </p>
                     </div>
                     <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="300ms">
                         <span class="typcn typcn-camera-outline x3"></span>
                         <h4>Второй этап</h4>
                         <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos exercitationem illum, maxime ab excepturi mollitia enim. Temporibus animi dolorum totam veritatis. Vero, sit quibusdam! Distinctio magnam est saepe officia possimus?
+                        Выезд специалиста по адресу для произведения необходимых замеров и расчёта стоимости предоставляемой услуги.
                         </p>
                     </div>
                     <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="500ms">
                         <span class="typcn typcn-bookmark x3"></span>
                         <h4>Третий этап</h4>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur doloribus illo nam modi, commodi officia est sed dolores eaque! Optio earum exercitationem consectetur labore a quo, cupiditate soluta maiores quod?
+                        Разработка и реализация проекта с учётом бюджета и личных пожеланий. Проверка работы и передача готового объекта клиенту.
                         </p>
                     </div>
                 </div>
@@ -108,11 +97,10 @@
                                 <div class="col-md-offset-1 col-md-10">
                                     <h3>Студия Ланшафтного и интерьерного дизайна</h3>
                                     <h5></h5>
-                                    <p>В среднем один заказ выполняется за 1 месяц, минимум 7-10 дней уходит
-                                         на создание проекта. <br>
-                                         
-                                         // Тут по планам задать минимальную стоимость для ЛАншафта и интерьера <br>
-                                         // этот текст потом уберу
+                                    <p>
+                                    Студия ландшафтного и интерьерного дизайна  «Digital Hills» находится в городе Ишим. Наши специалисты создадут неповтоимый дизайн на любом участке, учитывая все пожелания клиента, начиная с дачи и заканчивая парком. И всё это по доступной цене! Ландшафтные архитекторы нашей студии готовы воплотить мечту клиента о действительно красивом участке. <br>
+                                    Мы работаем со всеми направлениями дизайна и готовы за короткое время превратить в цветущий сад даже безжизненную пустыню. Кроме ландшафтного проектирования, мы предлагаем вам услуги интерьерного дизайна, озеленения территории и многое другое.  <br>
+                                    "Digital Hills" - воплощаем ваши мечты в реальность!
                                     </p>
                                     <p>
                                         
@@ -123,10 +111,13 @@
                                 <!-- set the numbers in assets/js/scripts.js  -->
                                 <div class="col-md-4 boxes col-xs-6 col-xs-offset-3 col-lg-4 col-lg-offset-1 col-md-offset-1 col-sm-6 wow fadeInUp">
                                     <h5>Ланшафт</h5>
+                                    <p>100/м²</p>
+
                                     <h3 class="odometer 01"> 00000</h3>
                                 </div>
                                 <div class="col-md-4 boxes col-xs-6 col-xs-offset-3 col-lg-4 col-lg-offset-2 col-md-offset-2 col-sm-6 wow fadeInUp" data-wow-delay="300ms">
                                     <h5>Интерьер</h5>
+                                    <p>1/м²</p>
                                     <h3 class="odometer 02">00000</h3>
                                 </div>
                             </div>
@@ -139,12 +130,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-7">
-                        <h2>Как сделать заказ?.</h2>
+                        <h2>Как сделать заказ?</h2>
                         <p>
 
                         </p>
-                        <p>Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nulla vitae elit libero, a pharetra augue.</p>
-                        <a class="btn btn-danger btn-lg" href="#">Take a Look <i class="fa fa-arrow-circle-o-right"></i> </a>
+                        <p>Итак, представим. Вы - человек, не имеющий дизайнерского опыта, но желающий создать красоту вокруг себя. Обустроить дом или же площадь вокруг дома кажется простой задачей, но на практике всё иначе? Наша студия готова помочь Вам в этом. Наше преимущество заключается в том, что студия имеет онлайн формат то есть, чтобы связаться с нами Вам не нужно провести кучу времени в поисках нужной точки на карте города. Связь с менеджером осуществляется через сайт. Наш специалист грамотно объяснит все нюансы и ответит на интересующие Вас вопросы, после чего мы приступим к работе. Выезд специалиста на место для проведения всех необходимых замеров осуществляется по городу бесплатно. Кроме того, Вы самостоятельно можете отправить нам чертёж, план помещения или территории для работы при условии, что он имеется. В таком случае выезд специалиста может не потребоваться. После разработки дизайна и необходимых поправок мы сразу же приступим к работе. Без сомнений, студия ландшафтного и интерьерного дизайна "Digital Hills" - это в первую очередь гарантия качества. "Digital Hills" - воплотим любую мечту в реальность!
+                        </p>
+                        <!-- <a class="btn btn-danger btn-lg" href="#">Take a Look <i class="fa fa-arrow-circle-o-right"></i> </a> -->
                     </div>
                     <div class="col-md-5">
                         <a href="#">
@@ -162,11 +154,12 @@
                         <div class="col-md-6 opaline">
                             <div class="row">
                                 <div class="col-md-10 col-md-offset-1">
-                                    <p class="lead"><i>Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</i></p>
-                                    <p><i>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</i></p>
-                                    <h6 class="lead"> – Fermentum Dapibus</h6>
-                                    <p><small>Nibh Etiam Risus Bibendum<br>
-        Nullam id dolor id nibh ultricies vehicula ut id elit.</small></p>
+                                <h6 class="lead"> – Наша история</h6>
+
+                                    <p class="lead"><i>История ландшафтного дизайна насчитывает тысячелетия. Первые окультуренные участки земли с растущими на них деревьями и кустарниками появились ещё во втором тысячелетии до нашей эры на территории Египта и Месопотамии — в те времена сады носили чисто функциональный характер. Но с развитием культуры и искусств, появилась потребность в организации декоративных садовых участков для отдыха и досуга..</i></p>
+                                    <p><i>Тема ландшафтного и интерьерного дизайна актуальнв и по сей день. Людям всегда и во все времена хотелось жить окружёнными красивыми вещами и комфортом. Время идёт, каноны моды и красоты меняются, однако человек никогда не утрачивал своего желания жить в красоте и комфорте. Декоративные интерьеры имели место быть и в античном мире, и в Древнем Египте и даже у индейцев. </i></p>
+                                    <p><i> В связи с новыми тенденциями (например, озеленение территории и дизайн интерьера) ландшафтный и интерьерный дизайн будет актуален ещё на многие года вперёд. </i></p>
+                                   
                                 </div>
                             </div>
                         </div>
