@@ -1,0 +1,20 @@
+PODS:
+  - nanopb (2.30906.0):
+    - nanopb/decode (= 2.30906.0)
+    - nanopb/encode (= 2.30906.0)
+  - nanopb/decode (2.30906.0)
+  - nanopb/encode (2.30906.0)
+
+DEPENDENCIES:
+  - nanopb (~> 2.30906.0)
+
+SPEC REPOS:
+  trunk:
+    - nanopb
+
+SPEC CHECKSUMS:
+  nanopb: 1bf24dd71191072e120b83dd02d08f3da0d65e53
+
+PODFILE CHECKSUM: faac7ca6f2abb046540690d06df6f50f9ffce83a
+
+COCOAPODS: 1.10.0
